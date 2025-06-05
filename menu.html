@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Меню | МимиМаму</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <h1 class="logo">МимиМаму</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О ресторане</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+      </ul>
+      <a href="#" class="cta book-table">Бронирование</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-images="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1580982333166-c04d4e5f0370?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1600628422019-9bf65dc0b250?auto=format&fit=crop&w=1350&q=80">
+    <div class="hero-overlay container">
+      <h2>Наше меню</h2>
+      <p>Попробуйте лучшие блюда от шеф-поваров</p>
+      <a href="#" class="cta book-table">Забронировать столик</a>
+    </div>
+  </section>
+
+  <section class="menu container reveal">
+    <h2>Популярные блюда</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80" alt="Димсам">
+        <h3>Димсам</h3>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1580982333166-c04d4e5f0370?auto=format&fit=crop&w=400&q=80" alt="Лапша">
+        <h3>Домашняя лапша</h3>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600628422019-9bf65dc0b250?auto=format&fit=crop&w=400&q=80" alt="Баоцзы">
+        <h3>Баоцзы</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2024 МимиМаму
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <h3>Бронирование столика</h3>
+      <form id="reservation-form">
+        <label>Имя<br>
+          <input type="text" required>
+        </label><br>
+        <label>Телефон<br>
+          <input type="tel" required>
+        </label><br><br>
+        <button type="submit" class="cta">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

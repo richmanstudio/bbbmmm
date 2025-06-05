@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты | МимиМаму</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <h1 class="logo">МимиМаму</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О ресторане</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+      </ul>
+      <a href="#" class="cta book-table">Бронирование</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-images="https://images.unsplash.com/photo-1478144592103-b4f2fdd007ed?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1588864300917-b679b2e3f7e1?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1350&q=80">
+    <div class="hero-overlay container">
+      <h2>Контакты</h2>
+      <p>Мы всегда рады ответить на ваши вопросы</p>
+      <a href="#" class="cta book-table">Забронировать столик</a>
+    </div>
+  </section>
+
+  <section class="contact container reveal">
+    <h2>Свяжитесь с нами</h2>
+    <p>г. Москва, ул. Вкусная, д. 5<br>Телефон: +7 (000) 123‑45‑67<br>Email: info@mimimamu.ru</p>
+    <a href="#" class="cta book-table">Забронировать столик</a>
+  </section>
+
+  <footer>
+    &copy; 2024 МимиМаму
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <h3>Бронирование столика</h3>
+      <form id="reservation-form">
+        <label>Имя<br>
+          <input type="text" required>
+        </label><br>
+        <label>Телефон<br>
+          <input type="tel" required>
+        </label><br><br>
+        <button type="submit" class="cta">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

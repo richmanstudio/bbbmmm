@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О ресторане | МимиМаму</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <h1 class="logo">МимиМаму</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О ресторане</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+      </ul>
+      <a href="#" class="cta book-table">Бронирование</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-images="https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1511689986347-5a35a5f23b1b?auto=format&fit=crop&w=1350&q=80;https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=1350&q=80">
+    <div class="hero-overlay container">
+      <h2>О ресторане</h2>
+      <p>Узнайте нашу историю и взгляды на гостеприимство</p>
+      <a href="#" class="cta book-table">Забронировать столик</a>
+    </div>
+  </section>
+
+  <section class="about container reveal">
+    <h2>Наша философия</h2>
+    <p>"МимиМаму" сочетает лучшие традиции китайской кухни с современным сервисом. Мы используем свежайшие ингредиенты и классические рецепты, чтобы дарить гостям подлинный вкус Китая.</p>
+  </section>
+
+  <footer>
+    &copy; 2024 МимиМаму
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <h3>Бронирование столика</h3>
+      <form id="reservation-form">
+        <label>Имя<br>
+          <input type="text" required>
+        </label><br>
+        <label>Телефон<br>
+          <input type="tel" required>
+        </label><br><br>
+        <button type="submit" class="cta">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
